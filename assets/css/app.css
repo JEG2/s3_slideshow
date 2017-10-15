@@ -1,0 +1,10 @@
+/* This file is for your main application css. */
+
+body {
+    margin:  0px;
+    padding: 0px;
+}
+
+#slides {
+    display: none;
+}

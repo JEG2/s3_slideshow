@@ -1,0 +1,5 @@
+<div id="slides">
+    <%= Enum.map(@images, fn image -> %>
+        <%= img_tag("http://photobooth.graysoftinc.com.s3-website-us-west-2.amazonaws.com/#{image}") %>
+    <% end) %>
+</div>
